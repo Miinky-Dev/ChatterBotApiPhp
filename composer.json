@@ -1,0 +1,8 @@
+{
+	"name": "Schumix/ChatterBotApi",
+    "autoload": {
+        "psr-0": {
+            "ChatterBotApi\\": "src/"
+        }
+    }
+}
