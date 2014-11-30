@@ -1,8 +1,8 @@
 {
 	"name": "Schumix/ChatterBotApi",
     "autoload": {
-        "classmap": [
-            "chatterbotapi.php"
-        ]
+        "psr-0": {
+            "ChatterBotApi\\": "src/"
+        }
     }
 }
