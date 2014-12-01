@@ -64,7 +64,7 @@ class Session extends AbstractSession
         
         $data = http_build_query($this->vars);
         
-        $dataToDigest = substr($data, 9, 20);
+        $dataToDigest = substr($data, 9, 26);
         
         $dataDigest = md5($dataToDigest);
         
